@@ -1,6 +1,6 @@
 {
   "name": "@hashtagopen/winston-stackdriver",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A utility that makes winston logs Stackdriver-compatible",
   "main": "index.js",
   "bin": {
