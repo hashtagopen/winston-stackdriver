@@ -1,0 +1,45 @@
+{
+  "name": "@hashtagopen/winston-stackdriver",
+  "version": "0.0.0",
+  "description": "A utility that makes winston logs Stackdriver-compatible",
+  "main": "index.js",
+  "bin": {
+    "winston-stackdriver": "index.js"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "bff"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hashtagopen/winston-stackdriver.git"
+  },
+  "keywords": [
+    "winston",
+    "stackdriver",
+    "logentry"
+  ],
+  "author": "Ian Walter <public@iankwalter.com> (https://iankwalter.com)",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/hashtagopen/winston-stackdriver/issues"
+  },
+  "homepage": "https://github.com/hashtagopen/winston-stackdriver#readme",
+  "dependencies": {
+    "fast-json-parse": "^1.0.3",
+    "fast-json-stringify": "^1.15.4",
+    "split2": "^3.1.1"
+  },
+  "devDependencies": {
+    "@ianwalter/bff": "^6.5.0",
+    "@ianwalter/eslint-config": "^2.4.0",
+    "@ianwalter/release": "^2.0.1",
+    "execa": "^2.0.4"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "@ianwalter"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`severity is added to log entry 1`] = `
+Object {
+  "message": "Not attempting to create collection",
+  "severity": "DEBUG",
+  "timestamp": "2019-09-10T01:15:12.511Z",
+}
+`;
+
+exports[`severity is added to log entry 2`] = `
+Object {
+  "message": "Applied validation schema to willy wonka",
+  "severity": "INFO",
+  "timestamp": "2019-09-10T01:15:12.559Z",
+}
+`;
