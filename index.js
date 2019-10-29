@@ -19,7 +19,7 @@ function winstonStackdriver (line) {
   const { value } = parseJson(line)
   if (value) {
     value.severity = value.level.toUpperCase()
-    line = stringifyJson(value)
+    line = value.responseTime ? stringifyJson(value) : JSON.stringify(value)
   }
   return line + '\n'
 }
